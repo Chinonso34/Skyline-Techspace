@@ -1,0 +1,291 @@
+body{
+
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.containerform{
+
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+input[type=text]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 20px;
+}
+
+input[type=text]:focus{
+
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+}
+
+::placeholder{
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* padding: 0px 30px; */
+    
+}
+
+
+
+.user{
+
+    position: absolute;
+     top: 18%;
+     left: 24%;
+     font-size: 23px;
+
+}
+
+.formuser{
+
+    position: relative;
+}
+
+
+/* Here is my email design */
+
+input[type=email]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 20px;
+}
+
+
+.email{
+
+    position: absolute;
+     top: 22%;
+     left: 24%;
+     font-size: 23px;
+
+}
+
+.formemail{
+
+    position: relative;
+}
+
+input[type=email]:focus{
+
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+}
+
+/* Here is the number design */
+
+input[type=tel]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    /* text-indent: 20px; */
+}
+
+input[type=tel]:focus{
+
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+}
+
+/* Here is my password design */
+
+input[type=password]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    /* text-indent: 20px; */
+}
+
+input[type=password]:focus{
+
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid lightblue;
+}
+
+
+.Formmain{
+
+    padding-bottom: 50px;
+}
+
+/* here is my register button design */
+
+.btn{
+
+    background-color: rgb(12, 180, 68);
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    width: 55%;
+}
+
+.divider{
+
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.divider::before, .divider::after{
+
+content: "";
+padding: 1px;
+background-color: lightblue;
+flex: 1;
+margin: 10px 3px;
+}
+
+.dividerbg{
+
+    background-color: rgb(240, 225, 225);
+    padding: 5px 15px;
+    border-radius: 55%;
+    border: 1px solid lightblue;
+
+}
+
+/* My social media button */
+
+.btnsocial{
+
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btnsocial:nth-child(2){
+
+    background-color: #26a7de;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btnsocial:nth-child(3){
+
+    background-color: #D44638;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Here is my mobile responsiveness design */
+
+@media screen and (max-width:888px){
+
+    .containerform{
+
+
+        width: 100%;
+        
+    }
+
+
+    .btnsocial{
+
+        
+        padding: 10px 20px;
+        margin: 5px;
+        
+    }
+
+    .containerform p{
+
+        padding: 20px;
+    }
+    
+
+    
+input[type=email]{
+
+    width: 80%;
+    
+}
+    
+
+input[type=text]{
+
+    width: 80%;
+    
+}
+
+
+input[type=tel]{
+
+    width: 80%;
+    
+}
+
+input[type=password]{
+
+    width: 80%;
+    
+}
+
+.btn{
+
+   
+    width: 100%;
+}
+
+.email{
+
+    position: absolute;
+     top: 25%;
+     left: 9%;
+     font-size: 23px;
+
+}
+
+.user{
+
+    position: absolute;
+     top: 18%;
+     left: 9%;
+     font-size: 23px;
+
+}
+
+
+body{
+
+    overflow-x: hidden;
+}
+
+
+}
